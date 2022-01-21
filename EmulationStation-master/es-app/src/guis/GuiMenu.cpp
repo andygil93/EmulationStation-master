@@ -91,7 +91,7 @@ GuiMenu::GuiMenu(Window* window) : GuiComponent(window), mMenu(window, "MAIN MEN
 			auto s = new GuiSettings(mWindow, "TEST");
 
 			// test
-			s->addWithLabel("MAKING A TEST");
+			s->addWithLabel("IS A TEST");
 	});
 
 	addEntry("UI SETTINGS", 0x777777FF, true,
